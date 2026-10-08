@@ -27,7 +27,7 @@ export const DestinationsSection: React.FC<DestinationsSectionProps> = ({ onSele
         {/* Global Campus Image Banner */}
         <div className="relative rounded-2xl overflow-hidden mb-12 shadow-sm border border-slate-200 bg-slate-900">
           <img
-            src="/src/assets/images/international_healthcare_hospital_1791195671312.jpg"
+            src="https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?auto=format&fit=crop&w=1600&q=80"
             alt="International hospital medical campus and modern glass pavilion"
             className="w-full h-56 sm:h-72 lg:h-80 object-cover opacity-90"
             referrerPolicy="no-referrer"
