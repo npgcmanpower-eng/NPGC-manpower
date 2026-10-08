@@ -179,7 +179,7 @@ export const SpecialtiesSection: React.FC<SpecialtiesSectionProps> = ({ onSelect
             
             <div className="lg:col-span-5 relative h-64 lg:h-full min-h-[260px]">
               <img
-                src="/src/assets/images/medical_department_placement_1791195626498.jpg"
+                src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=1200&q=80"
                 alt="Clinical nurse and doctor discussing patient digital diagnostic records"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
