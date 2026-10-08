@@ -17,17 +17,17 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
   const isWhite = variant === 'white';
 
   return (
-    <div className={`flex items-center gap-3 group ${className}`}>
-      <div className="relative shrink-0 rounded-xl bg-white p-1 border border-slate-200 shadow-xs transition-transform group-hover:scale-105">
-        <img
-          src={NPGC_OFFICIAL_LOGO}
-          alt="New Path Global Career Manpower Pvt Ltd"
-          className="w-12 h-12 sm:w-14 sm:h-14 object-contain rounded-lg"
-          onError={(e) => {
-            e.currentTarget.src = '/logo.png';
-          }}
-        />
-      </div>
+   <div className={`flex items-center gap-3 group ${className}`}>
+    <div className="relative shrink-0 rounded-xl bg-white p-1 border border-slate-200 shadow-xs transition-transform group-hover:scale-105">
+      <img
+        src="/logo.png"
+        alt="New Path Global Career Manpower Pvt Ltd"
+        className="h-11 sm:h-13 w-auto object-contain rounded-lg"
+        onError={(e) => {
+          e.currentTarget.src = NPGC_OFFICIAL_LOGO;
+        }}
+      />
+    </div>
 
       <div className="flex flex-col justify-center">
         <div className="flex items-center gap-1.5 leading-none">
